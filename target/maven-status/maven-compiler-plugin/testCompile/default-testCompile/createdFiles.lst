@@ -1,0 +1,10 @@
+com\SDET\Page\SeleniumPage.class
+com\SDET\TestCase\TC_LoginTest_002.class
+com\SDET\TestCase\TC_SeleniumTest_004.class
+com\SDET\TestCase\TC_AddCustomer_003.class
+com\SDET\Page\LoginPage.class
+com\SDET\Base\TestBase.class
+com\SDET\Utility\XLUtils.class
+com\SDET\TestCase\TC_LoginTest_001.class
+com\SDET\Utility\Reporting.class
+com\SDET\Page\AddCustomerPage.class

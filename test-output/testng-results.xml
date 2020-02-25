@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SDETProject" duration-ms="74783" started-at="2020-02-19T18:47:37Z" finished-at="2020-02-19T18:48:52Z">
+    <groups>
+    </groups>
+    <test name="SDET Testing" duration-ms="74783" started-at="2020-02-19T18:47:37Z" finished-at="2020-02-19T18:48:52Z">
+      <class name="com.SDET.TestCase.TC_SeleniumTest_004">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.TestCase.TC_SeleniumTest_004@343f4d3d]" name="SetUp" is-config="true" duration-ms="10782" started-at="2020-02-19T18:47:53Z" finished-at="2020-02-19T18:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateOnSelenium()[pri:0, instance:com.SDET.TestCase.TC_SeleniumTest_004@343f4d3d]" name="ValidateOnSelenium" duration-ms="9393" started-at="2020-02-19T18:48:03Z" finished-at="2020-02-19T18:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOnSelenium -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SDET.TestCase.TC_SeleniumTest_004@343f4d3d]" name="tearDown" is-config="true" duration-ms="248" started-at="2020-02-19T18:48:13Z" finished-at="2020-02-19T18:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.TestCase.TC_SeleniumTest_004 -->
+      <class name="com.SDET.TestCase.TC_LoginTest_001">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_001@57baeedf]" name="SetUp" is-config="true" duration-ms="11760" started-at="2020-02-19T18:47:37Z" finished-at="2020-02-19T18:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_001@57baeedf]" name="verifyLogin" duration-ms="3403" started-at="2020-02-19T18:47:49Z" finished-at="2020-02-19T18:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_001@57baeedf]" name="tearDown" is-config="true" duration-ms="125" started-at="2020-02-19T18:47:52Z" finished-at="2020-02-19T18:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.TestCase.TC_LoginTest_001 -->
+      <class name="com.SDET.TestCase.TC_LoginTest_002">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_002@53b32d7]" name="SetUp" is-config="true" duration-ms="10921" started-at="2020-02-19T18:48:13Z" finished-at="2020-02-19T18:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loginDD(java.lang.String, java.lang.String)[pri:0, instance:com.SDET.TestCase.TC_LoginTest_002@53b32d7]" name="loginDD" duration-ms="6388" started-at="2020-02-19T18:48:27Z" data-provider="LoginData" finished-at="2020-02-19T18:48:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr245435]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[syzAnEs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDD -->
+        <test-method status="FAIL" signature="loginDD(java.lang.String, java.lang.String)[pri:0, instance:com.SDET.TestCase.TC_LoginTest_002@53b32d7]" name="loginDD" duration-ms="6272" started-at="2020-02-19T18:48:33Z" data-provider="LoginData" finished-at="2020-02-19T18:48:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tkjh4567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23rt5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.SDET.TestCase.TC_LoginTest_002.loginDD(TC_LoginTest_002.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDD -->
+        <test-method status="FAIL" signature="loginDD(java.lang.String, java.lang.String)[pri:0, instance:com.SDET.TestCase.TC_LoginTest_002@53b32d7]" name="loginDD" duration-ms="6177" started-at="2020-02-19T18:48:39Z" data-provider="LoginData" finished-at="2020-02-19T18:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wet67y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ser45]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.SDET.TestCase.TC_LoginTest_002.loginDD(TC_LoginTest_002.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDD -->
+        <test-method status="PASS" signature="loginDD(java.lang.String, java.lang.String)[pri:0, instance:com.SDET.TestCase.TC_LoginTest_002@53b32d7]" name="loginDD" duration-ms="6236" started-at="2020-02-19T18:48:45Z" data-provider="LoginData" finished-at="2020-02-19T18:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr245435]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[syzAnEs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDD -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_002@53b32d7]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-02-19T18:48:52Z" finished-at="2020-02-19T18:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.TestCase.TC_LoginTest_002 -->
+    </test> <!-- SDET Testing -->
+  </suite> <!-- SDETProject -->
+</testng-results>

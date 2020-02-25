@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SDETProject" duration-ms="35186" started-at="2020-02-21T22:58:56Z" finished-at="2020-02-21T22:59:31Z">
+    <groups>
+    </groups>
+    <test name="SDET Testing" duration-ms="35186" started-at="2020-02-21T22:58:56Z" finished-at="2020-02-21T22:59:31Z">
+      <class name="com.SDET.TestCase.TC_LoginTest_001">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_001@6e8dacdf]" name="SetUp" is-config="true" duration-ms="12461" started-at="2020-02-21T22:58:56Z" finished-at="2020-02-21T22:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_001@6e8dacdf]" name="verifyLogin" duration-ms="3191" started-at="2020-02-21T22:59:09Z" finished-at="2020-02-21T22:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SDET.TestCase.TC_LoginTest_001@6e8dacdf]" name="tearDown" is-config="true" duration-ms="54" started-at="2020-02-21T22:59:12Z" finished-at="2020-02-21T22:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.TestCase.TC_LoginTest_001 -->
+      <class name="com.SDET.TestCase.TC_SeleniumTest_004">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.TestCase.TC_SeleniumTest_004@7a79be86]" name="SetUp" is-config="true" duration-ms="10385" started-at="2020-02-21T22:59:12Z" finished-at="2020-02-21T22:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateOnSelenium()[pri:0, instance:com.SDET.TestCase.TC_SeleniumTest_004@7a79be86]" name="ValidateOnSelenium" duration-ms="8750" started-at="2020-02-21T22:59:23Z" finished-at="2020-02-21T22:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOnSelenium -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SDET.TestCase.TC_SeleniumTest_004@7a79be86]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-02-21T22:59:31Z" finished-at="2020-02-21T22:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.TestCase.TC_SeleniumTest_004 -->
+    </test> <!-- SDET Testing -->
+  </suite> <!-- SDETProject -->
+</testng-results>
